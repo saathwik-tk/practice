@@ -1,3 +1,5 @@
+#to find the longest substring in a given string with 'k' distinct vowels in it.
+
 def longestKSubstr(s, k):
     # code here
     l=vc=maxLen=0
