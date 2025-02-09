@@ -29,9 +29,7 @@ def get_shortest_path(graph):
   path_arr=[]
   return path_arr
 
-def create_graph(n):
-  g={}
-  return g
+create_graph = lambda x: {i: {2*i:0, 2*i+1:0} for i in range(1,x+1)}
 
 def update_cost(graph, start, end, cost):
   shortest_path = get_shortest_path(graph, start, end)
